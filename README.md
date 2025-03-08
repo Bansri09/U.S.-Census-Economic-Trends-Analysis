@@ -1,4 +1,4 @@
-# Real Estate and Demographic Analysis Project
+# U.S. Census Economic Trends Analysis
 
 ## Overview
 
@@ -14,27 +14,35 @@ This project analyzes the relationship between median house prices and various d
 
 ## Findings
 
-### Question 1: How have median house prices and our variables changed over time?
+### How have median house prices and our variables changed over time?
+![output1](https://github.com/user-attachments/assets/2bce6fc6-6e9d-435c-ae23-66de2d35cd32)
+![output2](https://github.com/user-attachments/assets/81bfe46d-a2de-468f-aefe-01d891a604cb)
 
 - **Histogram of Median House Prices (2011, 2015, 2019):** Shows a clear shift in house prices from lower to higher brackets over the years.
 - **Temporal Trends:** Illustrates the cumulative growth rates of house prices, education levels, household income, employment, and poverty rates from 2011 to 2019. The data indicates a steady increase in house prices, education, income, and employment, and a decrease in poverty rates.
 
-### Question 2: How do our selected demographic variables correlate with median house prices across counties in the USA?
+### How do our selected demographic variables correlate with median house prices across counties in the USA?
+![output3](https://github.com/user-attachments/assets/bd24a2df-a1de-4d0f-b55e-28049fb3f1ad)
+![output4](https://github.com/user-attachments/assets/51d41927-0bd3-4ac3-bf38-3bf18145044d)
 
 - **Education and House Prices:** Positive correlation between the percentage of population with a bachelor's degree and median house prices.
 - **Median Income and House Prices:** Strong positive relationship between median household income and house prices.
 - **Employment Rates and House Prices:** Weak positive correlation between employment rates and house prices.
 - **Poverty Rates and House Prices:** Moderate inverse relationship between poverty rates and house prices.
 
-### Question 3: Are median house prices higher in counties with a more educated population?
+### Are median house prices higher in counties with a more educated population?
+![output7](https://github.com/user-attachments/assets/4a43b5e2-7550-4d6a-8fba-bdb3e7406365)
 
 - Analysis shows a significant difference in house prices between counties with higher education levels and those with lower education levels. T-test results confirm that higher educational attainment is associated with higher median house prices.
 
-### Question 4: What is the distribution of housing prices in high-poverty vs. low-poverty areas?
+### What is the distribution of housing prices in high-poverty vs. low-poverty areas?
+![output8](https://github.com/user-attachments/assets/9fc921b0-0ea4-49a7-997f-1d4311890129)
 
 - **Box Plots Comparison:** Highlight the disparities in housing prices between low-poverty and high-poverty areas. Low-poverty areas have higher and more variable house prices, while high-poverty areas have lower and more consistent house prices.
 
-### Question 5: How do median house prices and poverty rates compare across urban and rural areas in the USA?
+### How do median house prices and poverty rates compare across urban and rural areas in the USA?
+![output10](https://github.com/user-attachments/assets/adae340d-280c-4e37-be11-5a7dc8b2a683)
+![output9](https://github.com/user-attachments/assets/fe8e11ac-4381-4ce0-89bc-ee83d647821d)
 
 - **Urban vs. Rural Analysis:** Urban areas exhibit higher median house prices and lower poverty rates, while rural areas have lower house prices and higher poverty rates. This reflects the economic and housing market disparities between urban and rural regions.
 
@@ -50,49 +58,7 @@ This project analyzes the relationship between median house prices and various d
 
 The analysis highlights the interplay between demographic variables and median house prices, reflecting broader economic and social trends. The findings can inform policy decisions and real estate investment strategies.
 
-## Repository Structure
 
-- `data/`: Contains raw and cleaned data files.
-- `notebooks/`: Jupyter notebooks with data analysis and visualizations.
-- `figures/`: Generated figures and visualizations.
-- `README.md`: Project overview and findings.
 
 ---
 
-*Created with ❤️ by Bansri*
-
-
-
-
-# Project-1
-
-# Key Objectives
-
-This analysis aims to explore the following questions:
-
-How have median house prices and related variables changed over time across the USA?
-
-How do selected demographic variables correlate with median house prices across counties?
-
-Are median house prices higher in counties with a more educated population?
-
-What is the distribution of housing prices in high-poverty vs. low-poverty areas?
-
-How do median house prices and poverty rates compare across urban and rural areas in the USA?
-
-
-# Conclusion
-
-The analysis underscores the complex relationships between median house prices, household income, employment rates, education levels, and poverty rates:
-
-Income is the strongest predictor of house prices, with wealthier areas sustaining higher market values.
-
-Employment has a modest influence on house prices, with other factors like tourism, investment, and urban demand playing significant roles in specific regions.
-
-Education moderately impacts house prices, with better-educated populations generally associated with higher property values.
-
-Poverty is inversely related to house prices, with urban areas showing stronger economic resilience compared to rural regions.
-
-Affordability remains a pressing issue, as house price growth continues to outpace income and employment growth.
-
-This analysis provides valuable insights for policymakers, real estate professionals, and researchers. Future strategies should focus on promoting affordable housing, reducing economic disparities, and addressing the challenges faced by high-poverty and rural areas.
